@@ -1,4 +1,4 @@
-# 👨‍💻 Personal Portfolio Website
+# 👨‍💻 Personal Portfolio Website 😎
 
 This is my personal portfolio website, built from scratch to showcase my projects, certifications, and technical skills.
 
