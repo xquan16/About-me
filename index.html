@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CHAN XIN QUAN</title>
 
-    <base href="/About-me/">
+    <!-- <base href="/About-me/"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -97,9 +97,9 @@
 </head>
 <body id="top" class="bg-[oklch(98%_0.045_203.388)] text-gray-800 font-sans overflow-x-hidden">
     <header class="bg-[oklch(82.8%_0.111_230.318)] shadow-md sticky top-0 z-50"> 
-        <nav class="container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
+        <nav class="container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex flex-col sm:flex-row sm:justify-between sm:items-center">
             <a href="#top" class="text-lg sm:text-2xl font-bold text-gray-900 cursor-pointer">
-                CHAN XIN QUAN
+                CHAN XIN QUAN     
             </a>
             <div class="flex gap-3 sm:gap-6 text-sm sm:text-base">
                 <a href="#projects" class="text-gray-600 font-semibold hover:text-blue-700 font-medium transition-colors">Projects</a>
@@ -110,9 +110,8 @@
         </nav>
     </header>
 
-    <div class="w-full flex justify-center py-12 md:py-32 px-4 md:px-10">
+    <div class="w-full flex justify-center py-6 md:py-16 px-4 md:px-10">
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-[1.3fr_1fr] gap-10 md:gap-12 items-center">
-            
             <div class="text-center md:text-left">
                 <h1 class="text-4xl md:text-7xl font-black text-gray-900 mb-4">
                     CHAN XIN QUAN
@@ -126,7 +125,7 @@
 
                 <div class="relative mt-8 ml-2 md:ml-6 text-left inline-block md:block">
                     <div class="absolute left-2 top-2 bottom-2 w-0.5 bg-gray-300 z-0"></div>
-                    
+        
                     <div class="flex flex-col gap-8">
                         
                         <div class="relative flex items-start z-10 group">
@@ -165,7 +164,7 @@
 
                     </div> 
                 </div>
-                <div class="flex justify-center md:justify-start gap-6 mt-10 ml-0 md:ml-6">
+                <div class="flex justify-center md:justify-start gap-6 mt-6 ml-0 md:ml-6">
                     <a href="https://www.linkedin.com/in/chanxinquan" target="_blank" aria-label="LinkedIn" class="text-slate-700 hover:text-blue-500 transition-transform transform hover:scale-110">
                         <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                     </a>
@@ -184,17 +183,16 @@
                 </div>    
             </div> 
             
-            <div class="flex justify-center items-center mt-10 md:mt-0 relative">
-
-                <div class="absolute -top-40 md:-top-48 z-20 w-72 md:w-80 bg-white/60 backdrop-blur-md p-6 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-white/40 opacity-0 animate-pop-in flex items-center justify-center text-center min-h-[120px]">
+            <div class="flex flex-col justify-start items-center mt-0 md:mt-0 relative">
+                <div class="speech-bubble w-60 md:w-80 bg-white backdrop-blur-md p-4 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-white opacity-0 animate-pop-in flex items-center justify-center text-center min-h-[120px] mb-6">
                     <p id="bubble-text" class="text-sm md:text-base text-gray-800 font-medium leading-relaxed transition-opacity duration-500">
-                        "Proactive Computer Science (AI) undergraduate and Oracle Certified Professional (OCP)."
+                        "Hi, I’m a proactive Computer Science (AI) undergraduate, and I’ve also earned my Oracle Certified Professional credential."
                     </p>
-                    <div class="absolute -bottom-3 left-1/2 -translate-x-1/2 w-6 h-6 bg-white/60 backdrop-blur-md transform rotate-45 border-r border-b border-white/40"></div>
+                    <div class="absolute -bottom-3 left-1/2 -translate-x-1/2 w-6 h-6 bg-white backdrop-blur-md transform rotate-45 border-r border-b border-white"></div>
                 </div>
 
-                <div class="w-48 h-48 md:w-96 md:h-96 relative perspective-1000">
-                    <div id="profile-card" class="w-full h-full relative transition-transform duration-[2500ms] ease-in-out preserve-3d">
+                <div class="w-48 h-48 md:w-80 md:h-80 relative perspective-1000">
+                    <div id="profile-card" class="w-full h-full relative transition-transform duration-[3000ms] ease-in-out preserve-3d">
                         <div class="absolute w-full h-full backface-hidden">
                             <img src="images/avatar.png" alt="Cartoon Avatar" class="w-full h-full object-cover rounded-full shadow-2xl">
                         </div>
@@ -646,11 +644,12 @@
     <script>
         // --- Auto-Flip Profile Picture & Dynamic Text ---
         const messages = [
-            "Proactive Computer Science (AI) undergraduate and Oracle Certified Professional (OCP).",
-            "Strong foundation in Python, C#, and SQL, with practical research experience in Ant Colony Optimization algorithms.",
-            "Combines technical rigor with entrepreneurial grit gained from running a profitable e-commerce business.",
-            "Seeking an internship to leverage data analysis and AI skills in solving complex real-world problems."
+            "Hi, I’m a proactive Computer Science (AI) undergraduate, and I’ve also earned my Oracle Certified Professional credential.",
+            "I’ve built a strong foundation in Python, C#, and SQL, and even carried out practical research exploring Ant Colony Optimization algorithms.",
+            "Along the way, I’ve combined technical rigor with entrepreneurial grit — especially from runed a profitable e-commerce business on Shopee.",
+            "Now, I’m seeking an internship where I can put my data analysis and AI skills to work solving complex, real-world problems."
         ];
+
   
         let msgIndex = 0;
         const bubbleText = document.getElementById('bubble-text');
@@ -670,7 +669,7 @@
                 bubbleText.style.opacity = '1';
             }, 500);
   
-        }, 4000); 
+        }, 5000); 
   
         // --- 1. Your Original Project Swiper ---
         const projectSwiper = new Swiper('.swiper', {
